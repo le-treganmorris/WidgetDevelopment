@@ -11,7 +11,8 @@ CREATE TABLE [dbo].[Contacts]
 [ModifiedDate] [datetime] NULL,
 [Email] [nvarchar] (256) COLLATE Latin1_General_CI_AS NULL,
 [Image] [image] NULL,
-[Image2] [image] NULL
+[Image2] [image] NULL,
+[Image3] [image] NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Contacts] ADD CONSTRAINT [PK_Contacts] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
